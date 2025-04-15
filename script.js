@@ -98,3 +98,12 @@ function toggleCustomDropdown(event) {
       dropdown.classList.remove('show');
     }
   });
+
+
+  //Menu mobile
+const menuBtn = document.getElementById("menu-mobile");
+const menuNav = document.getElementById("menu-mobile-nav");
+
+menuBtn.addEventListener("click", () => {
+  menuNav.classList.toggle("active");
+});
