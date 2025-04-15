@@ -267,13 +267,14 @@ label {
 #footer-mobile1 {
   background-color: #F5F5F5;
   width: 100%;
-  padding: 30px;
+  padding: 48px;
 }
 
 #footer-mobile2 {
   background-color: #F5F5F5;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  gap: 40px;
 }
 
 #ul-footer-mobile li {
@@ -283,9 +284,7 @@ label {
 #ul-footer-mobile a {
   font-family: "Nunito Sans";
   font-size: 12px;
-
   font-weight: 600;
-
   color: #656565;
   text-decoration: none;
 
@@ -305,6 +304,7 @@ label {
 
 #footer-mobile-container {
   background-color: #F5F5F5;
+  padding-bottom: 50px;
 }
 
 #metodos-pagamento-mobile {
@@ -314,7 +314,7 @@ label {
   align-items: center;
   background-color: #F5F5F5;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 48px;
 }
 
 #metodos-pagamento-mobile img {
@@ -329,6 +329,7 @@ label {
   font-size: 12px;
   font-weight: 400;
   color: #303030;
+  padding-top: 48px;
 }
 
 #imagem-mobile-final {
@@ -637,11 +638,18 @@ label {
   text-decoration: none;
   list-style: none;
 }
-
-code {
+ h5 {
   font-size: 12px;
   color: #656565;
 }
+#h5-title{
+  font-size: 16px;
+  color: #000000;
+}
+#ul-footer-mobile li a h5{
+  font-size: 12px;
+}
+
 
 #metodos-pagamento-desktop-div {
   background-color: #F5F5F5;
